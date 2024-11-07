@@ -1,0 +1,145 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+nav{background-color: rgb(52, 54, 52);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border: 5px solid black;
+}
+nav> a{
+    display: flex;
+    align-items: center;
+    border-radius: 25%;
+    height: 40px;
+    color: rgb(255, 0, 0);
+    transition: 800ms;
+}
+nav> a:hover{
+    height: 25px;
+    background-color: rgb(56, 0, 0);
+    background-position: center;
+    background-size: cover;
+    transition: 800ms;
+    border-radius: 5px
+}
+#pesquisa{
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+}
+.uau{
+    color: red;
+}
+.marcas{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 50px;
+    gap: 50px;
+
+}
+.marcas>a>img{
+    height: 100px;
+    width: 300px;
+}
+.carlos>img{
+    height: 125px;
+}
+.thumb{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://r2.gear4music.com/media/94/940630/600/preview_1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+}
+.SG{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://harmoniamusical.com.br/media/catalog/product/cache/a42ba415c9a8a40a6c178a904f8e6bf3/1/9/192177_05.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start
+}
+.acu{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://images.tcdn.com.br/img/img_prod/1205809/guitarra_jackson_dinky_js22_arch_top_dka_snow_white_2467_1_f13d1e0dcf1fb92a27ec80a459c03fc9.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+}
+.fly{
+    width: 250px;
+    height: 250px;
+    background-image: url('https://cdn.iset.io/assets/53334/produtos/20874/c61b5bc5e6d9f01b28dac27542c90cf0667b572068611.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+
+}
+#oi{
+    overflow: hidden;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 0, 0);
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+    transition: 800ms;
+}
+#oi:hover{
+    color: rgb(56, 0, 0);
+    scale: 1.1;
+}
+.cards{
+    background-color: rgb(39, 39, 39);
+    border: 5px solid black;
+    display:flex;
+    padding: 40px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tempo{
+    font-size: 20px;
+    background-color: rgb(52, 54, 52);
+    width: 100%;
+    text-align: center;
+}
+nav> a{
+    display: flex;
+    align-items: center;
+    border-radius: 25%;
+    height: 40px;
+    color: rgb(255, 0, 0);
+    transition: 800ms;
+}
+nav> a:hover{
+    height: 25px;
+    background-color: rgb(56, 0, 0);
+    background-position: center;
+    background-size: cover;
+    transition: 800ms;
+    border-radius: 5px
+}
+.starts{
+    width: 250px;
+    height: 120px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.visualização{
+    text-align: center;
+    padding: 10px;
+}

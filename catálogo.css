@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
+nav{background-color: rgb(52, 54, 52);
+    color: rgb(255, 255, 255);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    border: 5px solid black;
+}
+nav> a{
+    display: flex;
+    align-items: center;
+    border-radius: 25%;
+    height: 40px;
+    color: rgb(255, 0, 0);
+    transition: 800ms;
+}
+nav> a:hover{
+    height: 25px;
+    background-color: rgb(56, 0, 0);
+    background-position: center;
+    background-size: cover;
+    transition: 800ms;
+    border-radius: 5px
+}
+#pesquisa{
+    height: 40px;
+    width: 250px;
+    border-radius: 50px;
+}
+.uau{
+    color: red;
+}
+.marcas{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 50px;
+    gap: 50px;
+
+}
+.marcas>a>img{
+    height: 100px;
+    width: 300px;
+}

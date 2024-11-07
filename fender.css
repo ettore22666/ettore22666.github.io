@@ -1,3 +1,6 @@
+body{
+    background-color: rgb(39, 39, 39);
+}
 nav{background-color: rgb(52, 54, 52);
     color: rgb(255, 255, 255);
     height: 100px;
@@ -7,9 +10,6 @@ nav{background-color: rgb(52, 54, 52);
     gap: 80px;
     border: 5px solid black;
 }
-body{
-    background-color: rgb(39, 39, 39);
-}
 nav> a{
     display: flex;
     align-items: center;
@@ -17,7 +17,6 @@ nav> a{
     height: 40px;
     color: rgb(255, 0, 0);
     transition: 800ms;
-    
 }
 nav> a:hover{
     height: 25px;
@@ -27,106 +26,80 @@ nav> a:hover{
     transition: 800ms;
     border-radius: 5px
 }
-
-#logo{
-    height: 260px;
-
-}
-
 #pesquisa{
     height: 40px;
     width: 250px;
     border-radius: 50px;
 }
-
 .uau{
     color: red;
+}
+.marcas{
+    display: flex;
+    flex-wrap:wrap;
+    padding: 50px;
+    gap: 50px;
+
+}
+.marcas>a>img{
+    height: 100px;
+    width: 300px;
+}
+.carlos>img{
+    height: 125px;
 }
 .thumb{
     width: 250px;
     height: 250px;
-    background-image: url('https://d3alv7ekdacjys.cloudfront.net/Custom/Content/Products/11/69/1169661_guitarra-les-paul-gibson-standard-slash-appetite-burst-ms_m2_637816655406828969.jpg');
+    background-image: url('https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/13572/288080/0110120805_1__01146.1715999387.jpg?c=2');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: flex-start;
 }
-.super{
+.SG{
     width: 250px;
     height: 250px;
-    background-image: url('https://thumbs.static-thomann.de/thumb/padthumb600x600/pics/bdb/_36/362691/9907171_800.jpg');
+    background-image: url('https://m.media-amazon.com/images/I/51MKBmn5hbL.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
-    align-items: flex-start;
-}
-.nir{
-    width: 250px;
-    height: 250px;
-    background-image: url('https://madeinbrazil.fbitsstatic.net/img/p/0143000700-guitarra-sig-series-kurt-cobain-jaguar-fender-69095/255578.jpg?w=800&h=800&v=no-change&qs=ignore');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: flex-start;
-}
-.snake{
-    background-color: white;
-    width: 250px;
-    height: 250px;
-    background-image: url('https://www.musicbliss.com.my/cdn/shop/files/SNAKEBYTE-SnowWhite_700x700.png?v=1695201502');
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    align-items: flex-start;
+    align-items: flex-start
 }
 .acu{
     width: 250px;
     height: 250px;
-    background-image: url('https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/31674/562343/vintage-gibson-es-335-tdc-cherry-1968__11270.1712034335.jpg?c=2');
+    background-image: url('https://images-americanas.b2w.io/produtos/47721162/imagens/guitarra-fender-60s-jaguar-lacquer-pf-lake-placid-blue/47721164_1_xlarge.jpg');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: flex-start;
 }
-.rece{
+.fly{
     width: 250px;
     height: 250px;
-    background-image: url('https://r2.gear4music.com/media/94/940630/600/preview_1.jpg');
+    background-image: url('https://d1z9meo96z0rqn.cloudfront.net/Custom/Content/Products/16/93/16934_flying-v-70s-classic-white-ps-4751-143233_m1_638102521685852302.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: flex-start;
+}.exp{
+    width: 250px;
+    height: 250px;
+    background-image: url('exp.png');
     background-size: cover;
     background-position: center;
     display: flex;
     align-items: flex-start;
 }
-.tempo{
-    font-size: 20px;
-    background-color: rgb(52, 54, 52);
-    width: 100%;
-    text-align: center;
-}
-.tempo{
-    font-size: 20px;
-    background-color: rgb(52, 54, 52);
-    width: 100%;
-    text-align: center;
-}
-#brawl{
-    border: 2px solid rgb(0, 0, 0);
+.fir{
     width: 250px;
+    height: 250px;
+    background-image: url('https://static.mundomax.com.br/produtos/53070/550/1.webp');
+    background-size: cover;
+    background-position: center;
     display: flex;
-    flex-direction: column;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-.starts{
-    width: 250px;
-    height: 120px;
-    background-color: rgb(255, 0, 0);
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-.visualização>img{
-    height: 30px;
+    align-items: flex-start;
 }
 #oi{
     overflow: hidden;
@@ -143,7 +116,6 @@ nav> a:hover{
     color: rgb(56, 0, 0);
     scale: 1.1;
 }
-
 .cards{
     background-color: rgb(39, 39, 39);
     border: 5px solid black;
@@ -153,24 +125,37 @@ nav> a:hover{
     flex-wrap: wrap;
     justify-content: center;
 }
-
-.opcoes{
+.tempo{
+    font-size: 20px;
+    background-color: rgb(52, 54, 52);
+    width: 100%;
+    text-align: center;
+}
+nav> a{
     display: flex;
-    gap: 10px;
-    overflow: hidden;
-    opacity: 0%;
+    align-items: center;
+    border-radius: 25%;
+    height: 40px;
+    color: rgb(255, 0, 0);
     transition: 800ms;
+}
+nav> a:hover{
+    height: 25px;
+    background-color: rgb(56, 0, 0);
+    background-position: center;
+    background-size: cover;
+    transition: 800ms;
+    border-radius: 5px
+}
+.starts{
+    width: 250px;
+    height: 120px;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 .visualização{
     text-align: center;
     padding: 10px;
-}
-
-@media (max-width: 1200px){
-    .opcoes{
-        flex-direction: column;
-    }
-}
-nav:hover .opcoes{
-    opacity: 1;
 }

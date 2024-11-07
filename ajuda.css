@@ -152,14 +152,12 @@ nav> a:hover{
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
 }
 
 .opcoes{
     display: flex;
     gap: 10px;
-    overflow: hidden;
-    opacity: 0%;
-    transition: 800ms;
 }
 .visualização{
     text-align: center;
@@ -171,6 +169,26 @@ nav> a:hover{
         flex-direction: column;
     }
 }
-nav:hover .opcoes{
+h1{
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: red;
+}
+.cards > div{
+    display: flex;
+    gap: 50px;
+}
+.texto{
+    width: 400px;
+    transition: 1s;
+    opacity: 0;
+    overflow: hidden;
+    font-size: 30px;
+}
+#oi:hover .texto{
     opacity: 1;
 }
+
+.cards:hover .texto{
+    opacity: 1;
+}
+
