@@ -174,3 +174,36 @@ nav> a:hover{
 nav:hover .opcoes{
     opacity: 1;
 }
+.afina{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 50px;
+}
+#lwe{
+    color: red;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.afina > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: red;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: 800ms;
+}
+.afina > div:hover{
+    color: green;
+    padding: 20px 0;
+}
+.iii{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.iii > img{
+    width: 40%;
+    height: 300px;
+}
